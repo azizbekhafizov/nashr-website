@@ -20,6 +20,7 @@
 .left_head h1 span {
   color: var(--main_color);
 }
+
 .left_head h1 {
   font-size: 2rem;
 }
@@ -41,6 +42,7 @@
   padding: 5px;
   position: relative;
   color: var(--bg-dark);
+  border: 2px solid;
 }
 
 .navlinks .link:hover a {
@@ -48,17 +50,17 @@
   border-bottom: 2px solid var(--main_color);
 }
 
-.menu_icon{
-    font-size: 40px;
-    display: none;
-    cursor: pointer;
+.menu_icon {
+  font-size: 40px;
+  display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
   .left_head h1 {
     font-size: 1.4rem;
   }
- .right_head .navlinks {
+  .right_head .navlinks {
     gap: 10px;
   }
   .navlinks .link {
@@ -73,12 +75,11 @@
   }
 }
 
-@media (max-width: 768px){
-
-    .right_head{
-        display: none;
-    }
-    .menu_icon{
-        display: block;
-    }
+@media (max-width: 768px) {
+  .right_head {
+    display: none;
+  }
+  .menu_icon {
+    display: block;
+  }
 }
