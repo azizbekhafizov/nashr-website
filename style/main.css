@@ -109,6 +109,7 @@ button {
   height: 100px;
   background-color: #ff750033;
   border-radius: 50%;
+
 }
 
 .card3 .hero-img {
@@ -255,6 +256,19 @@ footer {
   color: #ff6700;
 }
 
+.head-left h1{
+  font-size: 30px;
+}
+.head-left p{
+  font-size: 14px;
+  width: 270px;
+}
+
+.head-right img{
+  width: 400px;
+  height: 400px;
+}
+
 .footer-social {
   display: flex;
   justify-content: center;
@@ -272,6 +286,10 @@ footer {
   color: #ff6700;
 }
 @media (max-width: 970px) {
+  .head-left{
+    margin-left: 85px;
+    text-align: center;
+  }
   .hero-top hr {
     display: none;
   }
@@ -282,7 +300,7 @@ footer {
     justify-content: center;
   }
   .hero-wrapper {
-    margin-top: 250px;
+    margin-top: 280px;
     margin-right: 100px;
     flex-direction: column;
     row-gap: 45px;
@@ -293,8 +311,33 @@ footer {
     width: 280px;
     height: 200px;
   }
+  .main-bottom{
+    max-width: 900px;
+    margin:300px auto;
+    width: 100%;
+  }
+
+  .main-bottom .left h1{
+    font-size: 30px;
+  }
+  .main-bottom .left p{
+    margin-top: 10px;
+    width: 250px;
+    font-size: 14px;
+  }
+  .main-bottom .right img{
+    margin-top: 25px;
+    width:370px;
+    height: 370px;
+  }
+
+
   .hero-top h1 {
     font-size: 50px;
+  }
+
+  .footer-links{
+    text-align: center;
   }
 }
 
@@ -440,6 +483,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  .head-left{
+    margin-left: 40px;
+    text-align: center;
+  }
   footer {
     height: 700px;
   }
