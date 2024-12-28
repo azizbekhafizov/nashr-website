@@ -135,7 +135,7 @@ button {
   max-width: 1100px;
   width: 100%;
   background-color: #252420;
-  margin: 350px auto;
+  margin: 250px auto;
   display: flex;
   justify-content: center;
   height: 420px;
@@ -285,213 +285,239 @@ footer {
 .footer-social a:hover {
   color: #ff6700;
 }
-@media (max-width: 970px) {
-  .head-left{
-    margin-left: 85px;
-    text-align: center;
-  }
-  .hero-top hr {
-    display: none;
-  }
-  .hero-top {
+
+
+@media (max-width:1100px){
+.hero-top{
+  margin-top: 10px;
+  margin: auto;
+
+}
+ .hero-top h1{
+    font-size: 30px;
     text-align: center;
     margin: auto;
-    display: flex;
-    justify-content: center;
   }
-  .hero-wrapper {
-    margin-top: 280px;
-    margin-right: 100px;
-    flex-direction: column;
-    row-gap: 45px;
-    column-gap: 45px;
+  
+  .hero-wrapper{
+    max-width: 770px;
+    width: 100%;
+    margin:10px auto;
+    margin-top: 10px;
   }
 
-  .hero-card {
-    width: 280px;
-    height: 200px;
+.hero-wrapper .hero-card p{
+  width: 150px;
+}
+.hero-wrapper .hero-card h2{
+  width: 150px;
+}
+
+.hero-wrapper .hero-card{
+  width: 300px;
+  height: 220px;
+}
+
+  .main-head{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
   }
+
+  .main-head .head-right img{
+    margin-top: 70px;
+    margin-left: -70px;
+    width: 300px;
+    height: 300px;
+  }
+
   .main-bottom{
-    max-width: 900px;
-    margin:300px auto;
+    max-width: 1100px;
+    margin:200px auto;
+    padding: 0 20px;
     width: 100%;
   }
 
   .main-bottom .left h1{
     font-size: 30px;
+    
   }
   .main-bottom .left p{
-    margin-top: 10px;
-    width: 250px;
     font-size: 14px;
+    width: 350px;
+
   }
+
   .main-bottom .right img{
-    margin-top: 25px;
-    width:370px;
-    height: 370px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 380px;
+    height: 380px;
   }
 
 
-  .hero-top h1 {
-    font-size: 50px;
-  }
-
-  .footer-links{
-    text-align: center;
-  }
 }
 
-@media (max-width: 890px) {
-  .main-head {
-    max-width: 700px;
-    width: 100%;
+@media (max-width:768px) {
+  .main-bottom .right img{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .main-bottom .left h1{
+    font-size: 20px;
+    line-height: 30px;
+    width: 250px;
+    
+  }
+  .main-bottom .left p{
+    margin-top: 5px;
+    font-size: 14px;
+    width: 280px;
+
+  }
+}
+@media (max-width:630px){
+
+  .hero-top{
+    margin:30px auto;
+  
+  }
+   .hero-top h1{
+    width: 200px;
+    line-height: 40px;
+      font-size: 30px;
+      text-align: center;
+      margin: auto;
+    }
+    
+.hero-wrapper{
+  flex-direction: column;
+  text-align: center;
+  margin:300px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.hero-wrapper .hero-card p{
+  margin-left: 25px;
+
+  width: 250px;
+}
+.hero-wrapper .hero-card h2{
+  margin-left: 20px;
+  width: 250px;
+}
+.hero-wrapper .hero-card .hero-img{
+  margin: auto;
+}
+
+.hero-wrapper .hero-card{
+  width: 300px;
+  height: 220px;
+}
+  .main-head{
+    flex-direction: column;
+    gap: 25px;
+    height: 620px;
+  }
+
+  .head-left hr{
+    display: none;
+  }
+
+  .head-left{
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+  }
+
+  .main-head .head-right{
     margin: auto;
   }
 
-  .head-left h1 {
+  .main-head .head-right img{
+    margin: auto;
+  }
+  .main-head .head-left h1{
+    line-height: 30px;
     font-size: 25px;
     width: 250px;
   }
-
-  .head-left p {
+  .main-head .head-left p{
+    margin-top: 5px;
     font-size: 14px;
-    width: 320px;
+    width: 220px;
   }
 
-  .head-right img {
-    width: 250px;
-    height: 250px;
-  }
-  .head-right img {
-    width: 250px;
-    height: 250px;
-  }
-
-  .main-bottom {
-    max-width: 500px;
-    width: 100%;
-    margin: 450px auto;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .main-bottom .left h1 {
-    font-size: 30px;
-    text-align: center;
-    max-width: 760px;
-    width: 100%;
-  }
-
-  .main-bottom .left button {
-    margin-left: 150px;
-  }
-
-  .main-bottom .left p {
-    margin: 25px auto;
-  }
-
-  .main-bottom .right img {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer-links {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 575px) {
-  .main-head {
-    max-width: 480px;
-    width: 100%;
-    margin: auto;
-  }
-
-  .head-right img {
-    display: none;
-  }
-
-  .hero .hero-wrapper {
-    gap: 80px;
-  }
-  .head-left hr {
-    margin: auto;
-    width: 75%;
-  }
-
-  .hero-top h1 {
-    font-size: 36px;
-    line-height: 42px;
-  }
-
-  .hero-wrapper {
-    gap: 15px;
-  }
-
-  .hero-card {
-    max-width: 280px;
-  }
-
-  .hero-card h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .hero-card p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 425px) {
-  .main-head {
-    max-width: 425px;
-    width: 100%;
-    margin: auto;
-  }
-
-  .hero-card p {
-    width: 200px;
-  }
-
-  .hero-wrapper {
-    margin-top: 300px;
-    margin-left: 20px;
-  }
-
-  .main-bottom .left {
-    margin-top: 15px;
-  }
-
-  .main-bottom .left p {
+  .main-head .head-left button{
     margin-top: 10px;
-    width: 200px;
   }
 
-  .main-bottom .left h1 {
+  .main-bottom{
+    margin-top: 580px;
+    height: 670px;
+    flex-direction: column;
+  }
+
+  .main-bottom .right img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .main-bottom .left h1{
     margin: auto;
     font-size: 20px;
-    width: 200px;
+    text-align: center;
     line-height: 30px;
+    width: 250px;
+    
+  }
+  .main-bottom .left p{
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 280px;
+
   }
 
-  .main-bottom .left button {
-    margin-left: 100px;
-    /* margin-top: -20px; */
+  .main-bottom .left button{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+  }
+
+  .main-bottom .right{
+    margin: auto;
+  }
+
+  .main-bottom .right .right-img{
+    margin: auto;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .head-left{
-    margin-left: 40px;
-    text-align: center;
-  }
+@media  (max-width: 455px) {
+
   footer {
     height: 700px;
   }
   .footer-links {
+    text-align: center;
     grid-template-columns: 1fr;
     margin: 50px auto;
+  }
+}
+
+@media  (max-width: 375px) {
+  .main-bottom{
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
   }
 }
